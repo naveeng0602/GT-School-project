@@ -1,0 +1,43 @@
+.main{
+  margin: 0;
+  padding: 0;
+  box-shadow: 0;
+  background-color: rgb(70, 80, 107);
+  
+}
+.content{
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+  height: 200px;
+  color: rgb(252, 252, 252);
+  gap: 8px;
+  padding-top: 15px;
+
+
+}
+.r1{
+  width: 100%;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  
+
+
+}
+.r3{
+display: flex;
+width: 50%;
+justify-content: space-evenly;
+}
+.col{
+  display: block;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
