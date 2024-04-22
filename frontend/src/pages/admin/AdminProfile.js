@@ -110,6 +110,5 @@ const styles = {
 
 const pro = {
     backgroundColor:"",
-    border:"3px solid black",
     margin: "30px ",
 }
