@@ -1,5 +1,5 @@
 <h1 align="center">
-    GT Vally School Portal
+    GT  School Portal
 </h1>
 
 <h3 align="center">
@@ -9,7 +9,6 @@ Access records, view marks, and communicate effortlessly.
 </h3>
 
 <br>
-
 
 # About
 
@@ -39,9 +38,8 @@ The School Management System is a web-based application built using the MERN (Mo
 
 # Installation
 
+Terminal 1: Setting Up Backend
 
-
-Terminal 1: Setting Up Backend 
 ```sh
 cd backend
 npm install
@@ -56,12 +54,14 @@ MONGO_URL = mongodb://127.0.0.1/school
 Instead of this link write your database link.
 
 Terminal 2: Setting Up Frontend
+
 ```sh
 cd frontend
 npm install
 npm start
 ```
-Now, navigate to `localhost:3000` in your browser. 
+
+Now, navigate to `localhost:3000` in your browser.
 The Backend API will be running at `localhost:5000`.
 
 If this is not working then go to the src > redux > userRelated > userHandle.js
@@ -78,6 +78,6 @@ So you have to do this in the frontend. After this the project will run smoothly
 <br>
 
 # Deployment
-* Render - server side
-* Netlify - client side
 
+- Render - server side
+- Netlify - client side

@@ -14,6 +14,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../redux/userRelated/userHandle';
 import Popup from '../components/Popup';
 import Foter from '../components/Foter';
+import Header from './Header';
 
 const ChooseUser = ({ visitor }) => {
   const dispatch = useDispatch()
@@ -85,9 +86,10 @@ const ChooseUser = ({ visitor }) => {
 
   return (
     <>
+    <Header></Header>
     <StyledContainer>
       <Container>
-        <Grid container spacing={2} justifyContent="center">
+        <Grid container spacing={2} mt={20} justifyContent="center">
           <Grid item xs={12} sm={6} md={4}>
             <div onClick={() => navigateHandler("Admin")}>
               <StyledPaper elevation={3}>
@@ -146,7 +148,7 @@ const ChooseUser = ({ visitor }) => {
 export default ChooseUser;
 
 const StyledContainer = styled.div`
-  background: #86DED8;
+  background: #236C6D;
   height: 120vh;
   display: flex;
   justify-content: center;
@@ -161,7 +163,7 @@ const StyledPaper = styled(Paper)`
   cursor:pointer;
 
   &:hover {
-    background-color: #3A7672;
+    background-color: #236C6D;
     color:white;
   }
 `;

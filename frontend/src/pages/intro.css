@@ -1,0 +1,18 @@
+.contact-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../utils/images/contact-page-header.jpg);
+}
+
+#contact-form {
+    width: 50%;
+}
+.h{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.para{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 30px;
+    font-style: normal;
+}

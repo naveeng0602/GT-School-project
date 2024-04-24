@@ -35,7 +35,7 @@ export default function Foter() {
          
         </div>
         <div className='r1'>
-          <Footer.Copyright href="#" by=" All right reserved GT Vally School Kateya Gopalganj Bihar™" year={2022} />
+          <Footer.Copyright href="#" by=" All right reserved GT Valley School Kateya Gopalganj Bihar™" year={2022} />
           <div className="r3">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />
