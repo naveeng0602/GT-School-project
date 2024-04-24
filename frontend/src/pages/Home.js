@@ -5,7 +5,7 @@ import ChooseSection from './ChooseSection';
 import StartCoursesImg from '../utils/images/start-courses-img.jpg';
 import FaqAccordion from './FaqAccordion';
 import { Card } from 'react-bootstrap';
-import Blog1Img from '../utils/images/blog1-img.jpg'
+// import Blog1Img from '../utils/images/blog1-img.jpg'
 import Blog2Img from '../utils/images/blog2-img.jpg';
 import Blog3Img from '../utils/images/blog3-img.jpg';
 import Blog4Img from '../utils/images/gallery1.jpg';

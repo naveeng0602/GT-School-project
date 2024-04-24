@@ -13,7 +13,6 @@ import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../redux/userRelated/userHandle';
 import Popup from '../components/Popup';
-import Foter from '../components/Foter';
 import Header from './Header';
 
 const ChooseUser = ({ visitor }) => {
@@ -148,7 +147,7 @@ const ChooseUser = ({ visitor }) => {
 export default ChooseUser;
 
 const StyledContainer = styled.div`
-  background: #236C6D;
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../utils/images/contact-page-header.jpg);
   height: 120vh;
   display: flex;
   justify-content: center;

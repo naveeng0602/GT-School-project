@@ -4,13 +4,14 @@ import { Card } from 'react-bootstrap';
 import ArtCourseImg from '../utils/images/art-course.jpg';
 import BusinessCourseImg from '../utils/images/business-course.jpg';
 import ComputerScienceCourseImg from '../utils/images/computer-science-course.jpg';
-import EducationCourseImg from '../utils/images/education-course.jpg';
+// import EducationCourseImg from '../utils/images/education-course.jpg';
 import HealthcareCourseImg from '../utils/images/healthcare-course.jpg';
-import LawCourseImg from '../utils/images/law-course.jpg';
+// import LawCourseImg from '../utils/images/law-course.jpg';
 import MusicCourseImg from '../utils/images/music-course.jpg';
 import SportCourseImg from '../utils/images/sport-course.jpg';
-import FaqAccordion from './FaqAccordion';
+// import FaqAccordion from './FaqAccordion';
 import Header from './Header';
+import Footer from './Footer';
 
 const courses = [
     {
@@ -81,10 +82,11 @@ function Courses() {
             </div>
         </div>
 
-        <div className='bg-dark text-light py-5'>
+        {/* <div className='bg-dark text-light py-5'>
             <FaqAccordion />
-        </div>
+        </div> */}
     </div>
+    <Footer />
     </>
   )
 }
