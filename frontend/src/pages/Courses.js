@@ -17,7 +17,7 @@ const courses = [
         id: 1,
         img: [ArtCourseImg],
         title: 'ARTS',
-        description: 'At GT Valley International School, we recognize the importance of nurturing creativity, self-expression, and artistic talent in our students. After completing 10th grade, students have the opportunity to immerse themselves in the world of art, exploring various art forms, developing their skills, and paving the way for a fulfilling and inspiring career in the arts.'
+        description: 'At GT Valley International School, we recognize the importance of nurturing creativity, self-expression, and artistic talent in our students. After completing 10th grade, students have the opportunity to immerse themselves in the world of art, exploring various art forms, and paving the way for a fulfilling and inspiring career in the arts.'
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ const courses = [
         id: 4,
         img: [HealthcareCourseImg],
         title: 'SCIENCE',
-        description: 'At GT Valley International School, we believe that science education is the foundation for innovation, discovery, and progress. After completing 10th grade, our students have the opportunity to delve deeper into the fascinating world of science, explore various scientific disciplines, and pursue diverse career paths in science, engineering, medicine, research, and beyond.'
+        description: 'At GT Valley International School, we believe that science education is the foundation for innovation, discovery, and progress. After completing 10th grade, our students have the opportunity to devlop world of science, explore various scientific disciplines, and pursue diverse career paths in science, engineering, medicine, research, and beyond.'
     },
    
     {
