@@ -27,17 +27,17 @@ function Contact() {
                 <Row className='mb-3'>
                     <Col sm={12} md={6} className='mb-3 mb-md-0'>
                         <Form.Label>First Name</Form.Label>
-                        <Form.Control placeholder='First name' />
+                        <Form.Control placeholder='First name' required />
                     </Col>
                     <Col sm={12} md={6}>
                         <Form.Label>Last Name</Form.Label>
-                        <Form.Control placeholder='Last name' />
+                        <Form.Control placeholder='Last name' required />
                     </Col>
                 </Row>
 
                 <Form.Group className='mb-3'>
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type='email' placeholder='Enter email' />
+                    <Form.Control type='email' placeholder='Enter email' required/>
                     <Form.Text className='text-muted'>
                         We'll never share your email with anyone else.
                     </Form.Text>
@@ -45,13 +45,13 @@ function Contact() {
 
                 <Form.Group className='mb-3'>
                     <Form.Label>Address</Form.Label>
-                    <Form.Control placeholder='Your address' />
+                    <Form.Control placeholder='Your address' required />
                 </Form.Group>
 
                 <Row className='mb-3'>
                     <Col sm={12} md={6} className='mb-3 mb-md-0'>
                         <Form.Label>Location</Form.Label>
-                        <Form.Select defaultValue="India">
+                        <Form.Select defaultValue="India" required>
                             <option>India</option>
                             <option>London</option>
                             <option>Manchester</option>
@@ -60,13 +60,13 @@ function Contact() {
                     </Col>
                     <Col sm={12} md={6}>
                         <Form.Label>Postcode</Form.Label>
-                        <Form.Control placeholder='Postcode' />
+                        <Form.Control placeholder='Postcode' required />
                     </Col>
                 </Row>
 
                 <Form.Group className='mb-3'>
                     <Form.Label>Your Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Control as="textarea" rows={3} required />
                 </Form.Group>
 
                 <Button variant="danger btn-lg" type='submit'>Submit</Button>
