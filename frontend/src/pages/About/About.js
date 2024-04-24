@@ -14,6 +14,7 @@ import Person8 from '../../utils/images/person8.jpg';
 import Person9 from '../../utils/images/person9.jpg';
 import Footer from '../Footer';
 import Header from '../Header';
+import FaqAccordion from '../FaqAccordion';
 
 const persons = [
     {
@@ -68,6 +69,8 @@ function About() {
 
         <div className='container my-5'>
             <div className="row">
+                <h1 className='justify-content-center'><b>FACILITY</b></h1>
+                <br></br>
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>CAREER GUIDANCE</h2>
                     <p>At GT Valley International School, we understand the importance of empowering our students to make informed decisions about their future career paths. Our dedicated Career Guidance program is designed to provide personalized support, resources, and opportunities to help students explore their interests, skills, and aspirations, ensuring they are well-prepared for success in their chosen careers</p>
@@ -90,6 +93,9 @@ function About() {
 
         <div className='bg-dark text-light py-5'>
             <ChooseSection />
+        </div>
+        <div className='bg-dark text-light py-5'>
+            <FaqAccordion />
         </div>
 
         <div className='bg-body-tertiary py-5'>

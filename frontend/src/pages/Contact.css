@@ -4,6 +4,9 @@
 
 #contact-form {
     width: 50%;
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 #contact-form .form-control:focus,
