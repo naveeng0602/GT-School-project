@@ -18,33 +18,33 @@ const courses = [
         id: 1,
         img: [ArtCourseImg],
         title: 'ARTS',
-        description: 'At GT Valley International School, we recognize the importance of nurturing creativity, self-expression, and artistic talent in our students. After completing 10th grade, students have the opportunity to immerse themselves in the world of art, exploring various art forms, and paving the way for a fulfilling and inspiring career in the arts.'
+        description: 'At GT Valley International School, we recognize the importance of nurturing creativity, self-expression, and artistic talent in our students. Students have the opportunity to exploring various art forms, and paving the way for a fulfilling and inspiring career in the arts.'
     },
     {
         id: 2,
         img: [BusinessCourseImg],
         title: 'COMMERCE',
-        description: 'At GT Valley International School, we recognize the significance of commerce education in preparing students for dynamic and rewarding career paths in the world of business, finance, and entrepreneurship. After completing 10th grade, our students have the opportunity to explore a comprehensive range of commerce courses that equip them with essential skills and knowledge for success in the business world.'
+        description: 'At GT Valley International School, we recognize the significance of commerce education in preparing students for dynamic and rewarding career paths in the world of business, finance, and entrepreneurship.'
     },
     
     {
         id: 3,
         img: [ComputerScienceCourseImg],
         title: 'MATHEMATICES',
-        description: 'At GT Valley International School, we believe that the study of mathematics goes beyond the classroom, fostering problem-solving skills, analytical thinking, and logical reasoning essential for success in various fields. After completing 10th grade, our students have the opportunity to explore a diverse range of mathematics courses that open doors to exciting career paths and higher education options'
+        description: 'At GT Valley International School, we believe that the study of mathematics goes beyond the classroom, fostering problem-solving skills, analytical thinking, and logical reasoning essential for success in various fields.'
     },
     {
         id: 4,
         img: [HealthcareCourseImg],
         title: 'SCIENCE',
-        description: 'At GT Valley International School, we believe that science education is the foundation for innovation, discovery, and progress. After completing 10th grade, our students have the opportunity to devlop world of science, explore various scientific disciplines, and pursue diverse career paths in science, engineering, medicine, research, and beyond.'
+        description: 'At GT Valley International School, we believe that science education is the foundation for innovation, discovery, and progress. Our students have the opportunity to devlop world of science, explore various scientific disciplines, engineering, medicine, research, and beyond.'
     },
    
     {
         id: 5,
         img: [MusicCourseImg],
         title: 'Music Course',
-        description: 'Students may learn about different genres of music, famous composers and musicians, musical notation, harmony, rhythm, and melody. They may also have opportunities to develop their skills in playing instruments, singing, and even music production.'
+        description: 'Students may learn about different genres of music, famous composers and musicians, musical notation, harmony, rhythm, and melody. They have opportunities to develop their skills in playing instruments, singing, and even music production.'
     },
     {
         id: 6,
