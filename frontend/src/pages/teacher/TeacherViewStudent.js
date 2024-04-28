@@ -69,6 +69,7 @@ const TeacherViewStudent = () => {
                 </>
                 :
                 <div>
+                    <Box margin={5} align={'center'} fontSize={30}>
                     Name: {userDetails.name}
                     <br />
                     Roll Number: {userDetails.rollNum}
@@ -77,8 +78,8 @@ const TeacherViewStudent = () => {
                     <br />
                     School: {studentSchool.schoolName}
                     <br /><br />
-
-                    <h3>Attendance:</h3>
+                    
+                    <h3>Attendance:</h3></Box> 
                     {subjectAttendance && Array.isArray(subjectAttendance) && subjectAttendance.length > 0
                         &&
                         <>
