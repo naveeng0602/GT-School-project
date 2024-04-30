@@ -2,7 +2,7 @@ export const calculateSubjectAttendancePercentage = (presentCount, totalSessions
     if (totalSessions === 0 || presentCount === 0) {
         return 0;
     }
-    const percentage = (presentCount / totalSessions) * 100;
+    const percentage = ((presentCount / parseInt(totalSessions)) * 100);
     return percentage.toFixed(2); // Limit to two decimal places
 };
 
