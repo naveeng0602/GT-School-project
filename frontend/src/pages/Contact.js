@@ -87,8 +87,8 @@ function Contact() {
                 </Row>
 
                 <Form.Group className='mb-3'>
-                    <Form.Label>Your Message *</Form.Label>
-                    <Form.Control as="textarea" rows={3} name='message' required />
+                    <Form.Label>Your Message </Form.Label>
+                    <Form.Control as="textarea" rows={3} name='message' placeholder='Your Message *'required />
                 </Form.Group>
 
                 <Button variant="danger btn-lg" type='submit'>Submit</Button>
