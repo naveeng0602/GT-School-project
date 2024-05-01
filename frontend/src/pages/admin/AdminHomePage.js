@@ -5,6 +5,7 @@ import Classes from "../../assets/img2.png";
 import Teachers from "../../assets/img3.png";
 //import Fees from "../../assets/img4.png";
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
@@ -37,7 +38,7 @@ const AdminHomePage = () => {
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                 <Grid container spacing={4}>
                     <Grid item xs={12} md={3} lg={4}>
-                        <StyledPaper>
+                        <StyledPaper component={Link} style={{ textDecoration: "none" }} to="/Admin/students">
                             <img src={Students} alt="Students" />
                             <Title>
                                 Total Students
@@ -46,7 +47,7 @@ const AdminHomePage = () => {
                         </StyledPaper>
                     </Grid>
                     <Grid item xs={12} md={3} lg={4}>
-                        <StyledPaper>
+                        <StyledPaper component={Link} style={{ textDecoration: "none" }} to="/Admin/classes">
                             <img src={Classes} alt="Classes" />
                             <Title>
                                 Total Classes
@@ -55,7 +56,7 @@ const AdminHomePage = () => {
                         </StyledPaper>
                     </Grid>
                     <Grid item xs={12} md={3} lg={4}>
-                        <StyledPaper>
+                        <StyledPaper component={Link} style={{ textDecoration: "none" }} to="/Admin/teachers">
                             <img src={Teachers} alt="Teachers" />
                             <Title>
                                 Total Teachers
