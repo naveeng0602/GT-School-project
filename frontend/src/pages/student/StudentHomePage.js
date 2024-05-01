@@ -5,6 +5,7 @@ import { calculateOverallAttendancePercentage } from '../../components/attendanc
 import CustomPieChart from '../../components/CustomPieChart';
 import { getUserDetails } from '../../redux/userRelated/userHandle';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import SeeNotice from '../../components/SeeNotice';
 import CountUp from 'react-countup';
 import Subject from "../../assets/subjects.svg";
