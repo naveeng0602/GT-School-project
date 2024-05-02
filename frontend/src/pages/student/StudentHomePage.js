@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { Container, Grid, Paper, Typography } from '@mui/material'
+import { Container, Grid,Button, Paper, Typography } from '@mui/material'
 import { useDispatch, useSelector } from 'react-redux';
 import { calculateOverallAttendancePercentage } from '../../components/attendanceCalculator';
 import CustomPieChart from '../../components/CustomPieChart';
 import { getUserDetails } from '../../redux/userRelated/userHandle';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Fees from "../../assets/img4.png";
 import SeeNotice from '../../components/SeeNotice';
 import CountUp from 'react-countup';
 import Subject from "../../assets/subjects.svg";
@@ -55,15 +56,26 @@ const StudentHomePage = () => {
                             <Data start={0} end={numberOfSubjects} duration={2.5} />
                         </StyledPaper>
                     </Grid>
-                    {/* <Grid item xs={12} md={3} lg={3}>
-                        <StyledPaper>
+                    <Grid item xs={12} md={3} lg={3}>
+                        <StyledPaper component={Link} style={{ textDecoration: "none" }} to="/Student/assignment">
                             <img src={Assignment} alt="Assignments" />
                             <Title>
                                 Total Assignments
                             </Title>
-                            <Data start={0} end={15} duration={4} />
+                            <Data start={0} end={10} duration={4} />
                         </StyledPaper>
-                    </Grid> */}
+                    </Grid>
+                    <Grid item xs={12} md={3} lg={3} >
+                        < StyledPaper> 
+                        <Button mt={9} href='https://buy.stripe.com/test_6oE5mKe5ybb05sAdQR'>
+                            <img src={Fees} alt="Fees" />
+                            <Title mt={5}>
+                                Fees Collection
+                            </Title>
+                            {/* <Data start={0} end={15000} duration={2.5} prefix="₹" />  */}
+                            </Button>
+                        </StyledPaper>
+                    </Grid>
                     <Grid item xs={12} md={4} lg={3}>
                         <ChartContainer>
                             {

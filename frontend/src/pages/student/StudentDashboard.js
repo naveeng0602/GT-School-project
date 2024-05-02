@@ -20,6 +20,7 @@ import StudentComplain from './StudentComplain';
 import Logout from '../Logout'
 import AccountMenu from '../../components/AccountMenu';
 import { AppBar, Drawer } from '../../components/styles';
+import Assignment from './Assignment';
 
 
 const StudentDashboard = () => {
@@ -80,7 +81,7 @@ const StudentDashboard = () => {
                         <Route path="/Student/subjects" element={<StudentSubjects />} />
                         <Route path="/Student/attendance" element={<ViewStdAttendance />} />
                         <Route path="/Student/complain" element={<StudentComplain />} />
-
+                        <Route path='/Student/assignment' element={ <Assignment/>} />
                         <Route path="/logout" element={<Logout />} />
                     </Routes>
                 </Box>
