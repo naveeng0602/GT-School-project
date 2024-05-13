@@ -111,7 +111,7 @@ const Footer = () => {
               <div className="col-12 col-md-6 col-lg-7">
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <p>Main Address - Kateya Golpalganj Bihar</p>
+                    <p>Main Address - Kateya Gopalganj Bihar</p>
                   </li>
                   <li>
                     <p>Phone Number - +91-9606401102</p>
