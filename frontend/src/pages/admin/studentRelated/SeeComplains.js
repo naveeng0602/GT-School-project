@@ -54,7 +54,7 @@ const SeeComplains = () => {
       <>
         <>
           <IconButton onClick={() => deleteHandler(row.id, "Complain")}>
-            <DeleteIcon color="error" />
+            {/* <DeleteIcon color="error" /> */}
           </IconButton>
         </>
       </>
