@@ -343,13 +343,13 @@ const ViewStudent = () => {
     const StudentDetailsSection = () => {
         return (
             <div>
-                Name: {userDetails.name}
+              <b>  Name :</b> {userDetails.name}
                 <br />
-                Roll Number: {userDetails.rollNum}
+                <b>  Roll Number :</b> {userDetails.rollNum}
                 <br />
-                Class: {sclassName.sclassName}
+                <b>  Class : </b> {sclassName.sclassName}
                 <br />
-                School: {studentSchool.schoolName}
+                <b> School : </b> {studentSchool.schoolName}
                 {
                     subjectAttendance && Array.isArray(subjectAttendance) && subjectAttendance.length > 0 && (
                         <CustomPieChart data={chartData} />
