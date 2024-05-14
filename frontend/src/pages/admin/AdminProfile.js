@@ -56,10 +56,10 @@ const AdminProfile = () => {
             <br />
             </Box>
             <Button variant="contained" sx={{m:3, }} color="error" onClick={deleteHandler}>Delete</Button> 
-            <Button variant="contained" sx={styles.showButton }
+            {/* <Button variant="contained" sx={styles.showButton }
                 onClick={() => setShowTab(!showTab)}>
                 {showTab ? <KeyboardArrowUp /> : <KeyboardArrowDown />}{buttonText}
-            </Button>
+            </Button> */}
             <Collapse in={showTab} timeout="auto" unmountOnExit>
                 <div className="register">
                     <form className="registerForm" onSubmit={submitHandler}>

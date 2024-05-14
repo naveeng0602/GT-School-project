@@ -359,14 +359,14 @@ const ViewStudent = () => {
                     Delete
                 </Button>
                 <br />
-                 <Button variant="contained" sx={styles.styledButton} className="show-tab" onClick={() => { setShowTab(!showTab) }}>
+                 {/* <Button variant="contained" sx={styles.styledButton} className="show-tab" onClick={() => { setShowTab(!showTab) }}>
                     {
                         showTab
                             ? <KeyboardArrowUp />
                             : <KeyboardArrowDown />
                     }
                     Edit Student
-                </Button>
+                </Button> */}
                 <Collapse in={showTab} timeout="auto" unmountOnExit>
                     <div className="register">
                         <form className="registerForm" onSubmit={submitHandler}>
