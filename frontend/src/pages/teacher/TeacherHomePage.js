@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import Students from "../../assets/img1.png";
 import Lessons from "../../assets/subjects.svg";
 // import Tests from "../../assets/assignment.svg";
+import Assignment from "../../assets/assignment.svg";
+import { Link } from 'react-router-dom';
 // import Time from "../../assets/time.svg";
 import { getClassStudents, getSubjectDetails } from '../../redux/sclassRelated/sclassHandle';
 import { useDispatch, useSelector } from 'react-redux';
@@ -48,6 +50,15 @@ const TeacherHomePage = () => {
                                 Total Lessons
                             </Title>
                             <Data start={0} end={numberOfSessions} duration={2} />
+                        </StyledPaper>
+                    </Grid>
+                    <Grid item xs={12} md={3} lg={3}>
+                        <StyledPaper component={Link} style={{ textDecoration: "none" }} to="../Student/assignment">
+                            <img src={Assignment} alt="Assignments" />
+                            <Title>
+                                Total Assignments
+                            </Title>
+                            <Data start={0} end={10} duration={4} />
                         </StyledPaper>
                     </Grid>
                     {/* <Grid item xs={12} md={3} lg={3}>
