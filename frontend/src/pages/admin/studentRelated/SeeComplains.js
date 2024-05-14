@@ -9,9 +9,9 @@ import TableTemplate from '../../../components/TableTemplate';
 import { deleteUser } from '../../../redux/userRelated/userHandle';
 
 const SeeComplains = () => {
-  
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } }; 
-   const dispatch = useDispatch();
+
+  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  
+  const dispatch = useDispatch();
   const { complainsList, loading, error, response } = useSelector((state) => state.complain);
   const { currentUser } = useSelector(state => state.user)
 
@@ -50,7 +50,7 @@ const SeeComplains = () => {
       <>
         <>
                 <IconButton onClick={() => deleteHandler(row.id, "Complain")}>
-                    {/* <DeleteIcon color="error" /> */}
+                    <DeleteIcon color="error" />
                 </IconButton>
             </>
       </>
